@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-image: url('bg.jpg');
+    height: 99vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login{
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    border: 3px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.loginLogo{
+    text-align: center;
+    margin-top: 10px;
+}
+.loginBtn{
+    text-align: center;
+    border-radius: 25px;
+    margin: 30px 30px;
+    cursor: pointer;
+}
+.kakao{
+    background-color: yellow;
+}
+.facebook{
+    background-color: blue;
+}
+.loginImg{
+    height: 100px;
+    border-radius: 25px;
+}
+.musicnote{
+    height: 20px;
+    position: relative;
+    top:3px;
+    left: 5px;
+}
+h3{
+    display: inline-block;
+}
+.home{
+    display: inline-block;
+}
+.BgmBtn{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 0 30px;
+    border: none;
+    cursor: pointer;
+}
+.homeText{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+    font-size: 40px;
+}
+.homeLeft{
+    float: left;
+}
+.homeRight{
+    float: right;
+}
+.menubar{
+    list-style: none;
+    padding: 10px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 170px;
+    height: 20px;
+    cursor: pointer;
+}
+.menuFirst{
+    position: absolute;
+    right: -50px;
+    top: 28%;
+}
+.menuFirst:hover{
+    width: 250px;
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.menuSecond{
+    position: absolute;
+    right: -50px;
+    top: 37%;
+}
+.menuSecond:hover{
+    width: 250px;
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.menuThird{
+    position: absolute;
+    right: -50px;
+    top: 46%
+}
+.menuThird:hover{
+    width: 250px;
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.menuFourth{
+    position: absolute;
+    right: -50px;
+    top: 55%
+}
+.menuFourth:hover{
+    width: 250px;
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.menuFifth{
+    position: absolute;
+    right: -50px;
+    top: 64%
+}
+.menuFifth:hover{
+    width: 250px;
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
